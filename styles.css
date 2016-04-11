@@ -1,0 +1,120 @@
+/*Media Queries*/
+@media(max-width:768px){
+    #description{
+        margin-bottom:10% !important;
+    }
+    #formInnerWrapper{
+        margin-top:5% !important;
+    }
+    .formInput{
+        margin-bottom:30% !important;
+    }
+    #materialForm{
+        margin-top:10% !important;
+    }
+}
+
+@media(max-width:480px){
+    .formInput{
+        margin-bottom:70% !important;
+    }
+}
+
+body{
+    background-color:#3498db;
+    font-family: 'Lato', sans-serif;
+}
+.flatButton{
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,.4);
+    border:none;
+    text-align:center;
+}
+.green{
+    background-color:#1DE9B6;
+}
+.fa-check{
+    float: right;
+    margin-left:85%;
+    position: absolute;
+    z-index:0;
+    transition: all .2s;
+    color: #1DE9B6 !important;
+}
+#formOutterWrapper{
+    margin-top:2%;
+    padding:0;
+}
+#formInnerWrapper{
+    margin-top:25px;
+    background-color:#ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 2px;
+    height:500px;
+}
+#materialForm{
+    margin-top:7%;
+}
+
+#description{
+    margin-bottom:5%;
+}
+
+
+input, label{
+    display:block;
+}
+label{
+    color:#212121;
+    position:absolute;
+    font-size:20px;
+    font-weight:400;
+    transition: all .2s
+}
+input{
+    margin-top:10px;
+}
+.formInput{
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid #E1E1E1;
+    
+    width:100%;
+    margin-bottom:15%;
+    color:#8C8C8C;
+
+}
+
+input:focus{
+    outline:none;
+    color:#3498db;
+    border-bottom:2px solid #2980b9;
+    -webkit-transition:border-bottom .5s;
+    -moz-transition:border-bottom .5s;
+    -ms-transition:border-bottom .5s;
+     -o-transition:border-bottom .5s;
+        transition:border-bottom .5s;
+}
+.active{
+    transform:translateY(-140%);
+    font-size:14px;
+}
+
+#submit:hover{
+    background-color:#18E997;
+}
+#close{
+    display:block;
+    position:absolute;
+    cursor:pointer;
+    left:5px;
+    z-index:999;
+    margin-right:0;
+    padding-right:0;
+    padding-left:0;
+    color:#ffffff;
+}
+#close:hover{
+    color:#c0392b;
+}
