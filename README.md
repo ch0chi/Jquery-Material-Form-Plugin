@@ -1,6 +1,6 @@
 # Jquery Material Form Plugin
 
-View the [demo](http://ch0chi.github.io/Responsive-Material-Form-Plugin)
+View the [demo](http://ch0chi.github.io/Jquery-Material-Form-Plugin)
 ### Version
 1.0
 
